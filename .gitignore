@@ -1,0 +1,67 @@
+# =========================
+# Dependencies
+# =========================
+node_modules/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# =========================
+# Build / Dist
+# =========================
+build/
+dist/
+out/
+.next
+coverage/
+
+# =========================
+# Env files
+# =========================
+.env
+.env.*
+!.env.template
+
+# =========================
+# Logs
+# =========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+
+# =========================
+# Runtime / temp
+# =========================
+tmp/
+temp/
+
+# =========================
+# Vercel
+# =========================
+.vercel/
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# =========================
+# Certificates / secrets
+# =========================
+*.pem
+
+# =========================
+# TypeScript
+# =========================
+*.tsbuildinfo
+next-env.d.ts
